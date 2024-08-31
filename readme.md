@@ -7,6 +7,9 @@ It was forked from the [QRCoder](https://github.com/codebude/QRCoder) project th
 
 Because of the System.Drawing assembly does not suport [non-Windows](https://docs.microsoft.com/en-us/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only) plattforms, QRCoder-ImageSharp is using the [ImageSharp](https://github.com/SixLabors/ImageSharp) assembly to support more plattforms.
 
+## Differences in this fork of QRCoder-ImageSharp
+- Timely updates to nuget package, especially when they address vulnerabilities.
+
 ## Differences between QRCoder and QRCoder-ImageSharp
 
 - QRCoder-ImageSharp is using ImageSharp instead of System.Drawing
